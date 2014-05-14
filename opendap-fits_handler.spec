@@ -5,24 +5,24 @@
 Summary:	FITS data handler module for the OPeNDAP data server
 Summary(pl.UTF-8):	Moduł obsługujący dane FITS dla serwera danych OPeNDAP
 Name:		opendap-fits_handler
-Version:	1.0.10
+Version:	1.0.11
 Release:	1
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/fits_handler-%{version}.tar.gz
-# Source0-md5:	3a479a12b73a37b2ffca4fa079421a98
+# Source0-md5:	8e4be0707e219215a3fc63dd8c5d5337
 URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.10
-%{?with_tests:BuildRequires:	bes >= 3.9.1}
-BuildRequires:	bes-devel >= 3.9.1
+%{?with_tests:BuildRequires:	bes >= 3.13.0}
+BuildRequires:	bes-devel >= 3.13.0
 BuildRequires:	cfitsio-devel
-BuildRequires:	libdap-devel >= 3.11.1
+BuildRequires:	libdap-devel >= 3.13.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool >= 2:1.5
 BuildRequires:	pkgconfig
-Requires:	bes >= 3.9.1
-Requires:	libdap >= 3.11.1
+Requires:	bes >= 3.13.0
+Requires:	libdap >= 3.13.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
