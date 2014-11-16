@@ -6,7 +6,7 @@ Summary:	FITS data handler module for the OPeNDAP data server
 Summary(pl.UTF-8):	Moduł obsługujący dane FITS dla serwera danych OPeNDAP
 Name:		opendap-fits_handler
 Version:	1.0.11
-Release:	1
+Release:	2
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/fits_handler-%{version}.tar.gz
